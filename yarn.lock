@@ -8950,6 +8950,13 @@ react-chartjs-2@^3.0.5:
   resolved "https://registry.yarnpkg.com/react-chartjs-2/-/react-chartjs-2-3.3.0.tgz#3f62681645acccc1ab27a9186c70f79d6d417f73"
   integrity sha512-4Mt0SR2aiUbWi/4762odRBYSnbNKSs4HWc0o3IW43py5bMfmfpeZU95w6mbvtuLZH/M3GsPJMU8DvDc+5U9blQ==
 
+react-data-table-component@^7.5.4:
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/react-data-table-component/-/react-data-table-component-7.5.4.tgz#82bcf828139f7a88464cd4f5f88b3bc6ba676b29"
+  integrity sha512-6DGVj3urJZfEEMuP652fSjxdRVKeyb+9d0YounVc+MX8jwoyXQW6KO10eyZqElE9QtVrKrCeJxR7vht9yxyJiw==
+  dependencies:
+    deepmerge "^4.2.2"
+
 react-dev-utils@^12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-12.0.1.tgz#ba92edb4a1f379bd46ccd6bcd4e7bc398df33e73"
@@ -9104,11 +9111,6 @@ react-table-6@^6.11.0:
   integrity sha512-zO24J+1Qg2AHxtSNMfHeGW1dxFcmLJQrAeLJyCAENdNdwJt+YolDDtJEBdZlukon7rZeAdB3d5gUH6eb9Dn5Ug==
   dependencies:
     classnames "^2.2.5"
-
-react-table@^7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
-  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react-transition-group@^4.3.0:
   version "4.4.5"

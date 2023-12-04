@@ -1,23 +1,24 @@
 import { format } from "date-fns";
 import { useMemo } from "react";
+import { ITrade } from "../types/allTypes";
 
 export const useMarketColumn = () => {
   const columns = useMemo(
     () => [
       {
-        Header: "Time",
-        accessor: "time",
-        Cell: ({ value }) => (
-          <span>{format(new Date(value), "MM/dd/yyyy, HH:mm:ss")}</span>
+        name: "Time",
+        selector: "time",
+        cell: (row: ITrade) => (
+          <span>{format(new Date(row.time), "MM/dd/yyyy, HH:mm:ss")}</span>
         ),
       },
       {
-        Header: "Price",
-        accessor: "price",
+        name: "Price",
+        selector: "price",
       },
       {
-        Header: "Quantity",
-        accessor: "qty",
+        name: "Quantity",
+        selector: "qty",
       },
     ],
     []
